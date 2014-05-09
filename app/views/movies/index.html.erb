@@ -1,0 +1,13 @@
+<div id="search">
+	<input type="text" id="search-text" placeholder="movie title">
+	<input type="submit" name="submit" id="search" value="search">
+</div>
+
+<script id="movie-item" type="text/template">
+	<div><span>title: </span> <%%= title %> </div>
+	<div><img src="<%%= poster %>" alt="<%%= title %> image"></div>
+	<div><span>plot: </span> 
+	<p><%%= plot %></p></div>
+	<div><span>year:</span> <%%= year %></div>
+</script>
+
